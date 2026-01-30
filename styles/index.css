@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: sans-serif;
+}
+
+body {
+    min-height: 100dvh;
+    background-color: #131313;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    background-color: rgb(6, 0, 20);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+    padding: 32px;
+    margin: 16px;
+    border-radius: 16px;
+    box-shadow: 0 0 8px rgba(117, 36, 248, .5);
+    transition: box-shadow .3s ease;
+}
+
+.container:hover {
+    box-shadow: 0 0 8px rgb(117, 36, 248);
+}
+
+.profile-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.profile-image-container {
+    width: 132px;
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.profile-image {
+    width: 100%;
+    object-fit: cover;
+    object-position: 0 -20px;
+}
+
+.profile-title {
+    text-align: center;
+}
+
+.profile-subtitle {
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: rgb(145 76 255);
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.social-link {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 16px;
+    font-weight: 600;
+    transition: transform .3s ease;
+}
+
+.social-link:hover {
+    transform: scale(.98);
+}
+
+.social-icon {
+    width: 24px;
+}
+
+.github-link {
+    background-color: white;
+    border-radius: 8px;
+    color: black;
+}
+
+.linkedin-link {
+    background-color: #0A66C2;
+    border-radius: 8px;
+    color: white;
+}
