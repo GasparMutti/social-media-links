@@ -14,7 +14,6 @@ Users should be able to:
 ### Screenshots
 
 ![mobile](./assets/images/mobileScreenshot.png)
-![tablet](./assets/images/tabletScreenshot.png)
 ![desktop](./assets/images/desktopScreenshot.png)
 
 ### Links
