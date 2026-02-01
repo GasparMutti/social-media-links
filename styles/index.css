@@ -11,21 +11,21 @@
 body {
     min-height: 100dvh;
     background-color: #131313;
-    color: white;
+    color: #FEFEFE;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 a {
-    color: white;
+    color: #FEFEFE;
     text-decoration: none;
 }
 
 .container {
     width: 100%;
     max-width: 400px;
-    background-color: rgb(6, 0, 20);
+    background-color: #06000a;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -99,7 +99,7 @@ a {
 }
 
 .github-link {
-    background-color: white;
+    background-color: #FFF;
     border-radius: 8px;
     color: black;
 }
